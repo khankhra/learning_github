@@ -1,0 +1,27 @@
+Гит-команды:
+
+git status
+git diff
+git add "file"
+git commit -m "message"
+git push
+git fetch - показывает, что есть изменения на удаленном репозитории (напр., гитхаб)
+git pull
+git log
+git log author <author>
+git show <hashe>
+git blame <file> | grep <string>
+git blame <file> | grep <author>
+
+
+Порядок синхронизации локального гита с гитхабом:
+git status >> git diff >> git add <file> >> git commit -m >> git push >> git status
+
+
+Порядок синхронизации гитбаха с локальным гитом:
+git fetch >> git status >> git pull
+
+
+Linux commands:
+cat <file> - просмотр файла
+echo "string" >> <file>  - добавлять строки в целевой файл
